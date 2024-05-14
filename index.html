@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+
+    <nav>
+        <ul class="navbar">
+            <li class="nav-el"><a href="#">Lab5_PIS |</a></li>
+            <li class="nav-el"><a href="index.html">Weather API</a></li>
+            <li class="nav-el"><a href="http.html">HTTP</a></li>
+          </ul>
+    </nav>
+
+    <div class="card">
+        <div class="search">
+            <input type="text" class="city-search" placeholder="Введіть назву міста..." spellcheck="false">
+            <button class="search-btn">
+                <img class="search-img" src="img/search.png" alt="">
+            </button>
+        </div>
+
+        <div class="invalid-name">
+            <h1 class="error-message">Неправильно введене місто!</h1>
+        </div>
+        
+        <div class="weather-forecast">
+            <img class="weather-icon" src="" alt="">
+            <h2 class="city-name"></h2>
+            <h1 class="temperature"></h1>
+            <h3 class="feels-like"></h3>
+            <div class="details">
+                <div class="humidity">
+                    <img class="details-icon" src="img/humidity.png" alt="">
+                    <div class="humidity-text">
+                        <p class="numbers-text humidity-number"></p>
+                        <p class="weather-text">Вологість</p>
+                    </div>
+                </div>
+                <div class="wind">
+                    <img class="details-icon" src="img/wind.png" alt="">
+                    <div class="wind-text">
+                        <p class="numbers-text wind-speed-number"></p>
+                        <p class="weather-text">Швидкість вітру</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

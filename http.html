@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTTP</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <ul class="navbar">
+            <li class="nav-el"><a href="#">Lab5_PIS |</a></li>
+            <li class="nav-el"><a href="index.html">Weather API</a></li>
+            <li class="nav-el"><a href="http.html">HTTP</a></li>
+          </ul>
+    </nav>
+
+    <div class="request">
+        <form id="login-form">
+            <label for="login">Ваш логін:</label>
+            <input type="text" id="login-input" name="login" placeholder="Введіть ваш логін..." autocomplete="off">
+            <button id="login-submit" type="submit">Відправити</button>
+        </form>
+    </div>
+
+        <div class="response">
+            <h2 id="surname" class="response-field">Прізвище: </h2>
+            <h2 id="name" class="response-field">Ім'я: </h2>
+            <h2 id="course" class="response-field">Курс: </h2>
+            <h2 id="group" class="response-field">Група: </h2>
+        </div>
+
+    <script src="http.js"></script>
+
+</body>
+
+</html>

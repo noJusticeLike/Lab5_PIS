@@ -1,0 +1,187 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Poppins", sans-serif;
+	line-height: normal;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: rgb(241, 255, 235);
+}
+
+.navbar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+  
+.nav-el {
+	float: left;
+}
+  
+.nav-el a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+  
+.nav-el a:hover {
+	background-color: #111;
+}
+
+.card {
+	max-width: 470px;
+	margin: 10px auto;
+	padding: 40px 35px;
+	background: linear-gradient(90deg, hsla(324, 100%, 53%, 1) 0%, hsla(229, 89%, 62%, 1) 100%);
+	color: #fff;
+	border-radius: 20px;
+	text-align: center;
+}
+
+.search {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.city-search {
+	border: 0;
+	outline: 0;
+	background: #ebfffc;
+	color: #555;
+	padding: 10px 25px;
+	height: 60px;
+	border-radius: 30px;
+	flex: 1;
+	margin-right: 16px;
+	font-size: 18px;
+}
+
+.search-btn {
+	border: 0;
+	outline: 0;
+	background: #ebfffc;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.search-img {
+	width: 16px;
+	text-align: center;
+}
+
+.invalid-name {
+	display: none;
+}
+.error-message {
+	text-align: left;
+	margin-left: 10px;
+	font-size: 24px;
+	margin-top: 10px;
+}
+
+.weather-forecast {
+	display: none;
+}
+
+.weather-icon {
+	width: 170px;
+}
+
+.temperature {
+	font-size: 60px;
+	font-weight: 500;
+	line-height: normal;
+}
+
+.feels-like {
+	font-size: 30px;
+	font-weight: 300;
+}
+
+.city-name {
+	font-size: 45px;
+	font-weight: 400;
+}
+
+.details {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 20px;
+	margin-top: 50px;
+}
+
+.humidity,
+.wind {
+	display: flex;
+	align-items: center;
+	text-align: left;
+}
+
+.details-icon {
+	width: 40px;
+	margin-right: 10px;
+}
+
+.numbers-text {
+	font-size: 28px;
+	margin-top: -6px;
+}
+
+.request {
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+}
+
+#login-form {
+	margin-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+  
+#login-input {
+	width: 200px;
+	padding: 5px;
+}
+  
+#login-submit {
+	padding: 5px 10px;
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+}
+  
+#login-submit:hover {
+	background-color: #0056b3;
+}
+  
+.response {
+	margin-top: 20px;
+	display: none;
+}
+
+.response-field {
+	width: 50%;
+	font-weight: 500;
+	font-size: 24px;
+	padding: 10px;
+	margin:0 auto 20px;
+	border: 2px solid black;
+	background-color: lime;
+}
